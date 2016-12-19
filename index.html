@@ -7,8 +7,40 @@
 
     <meta name=‘viewport’ content=‘initial-scale=1,maximum-scale=1,user-scalable=no’ />
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" />
+    <link href='http://fonts.googleapis.com/css?family=Imprima' rel='stylesheet' type='text/css'>
+
     <style>
         /* CSS style rules go here! */
+        
+        body {
+            background: #f5f5f5;
+            font-family: Imprima, sans-serif;
+        }
+        
+        header {
+            width: 100%;
+            min-width: 800px;
+            margin: 0 auto;
+            background: steelblue;
+            padding: 15px 0 20px;
+        }
+        
+        h1 {
+            font-family: Dosis, sans-serif;
+            color: #375671;
+            width: 80%;
+            margin: 0 auto;
+            color: whitesmoke;
+        }
+        
+        h2 {
+            font-family: Dosis, sans-serif;
+            color: #375671;
+            width: 80%;
+            margin: 0 auto;
+            color: whitesmoke;
+        }
     </style>
 </head>
 
@@ -17,6 +49,38 @@
         <h1>MAP672: Programming for Web Mapping</h1>
         <h2>Web Cartography at the University of Kentucky</h2>
     </header>
+
+    <section>
+        <a href="maps/nyc_map.pdf"> <img src="images/busStops.jpg" alt="Map of Bus Stops in NYC"> </a>
+        <h3>Bus Stops in New York City with Half-Mile Buffer Distances</h3>
+        <p>This map is a of bus stops in New York City with a half-mile buffer distance.</p>
+        <p>The map was generated in QGIS by extracting data in Open Street Maps.</p>
+        <ul>
+            <li>See the map: <a href="maps/nyc_map.pdf">NYC Bus Stops</a></li>
+            <li>Data Source<a href="https://www.openstreetmap.org">Open Street Map</a></li>
+        </ul>
+    </section>
+
+
+    <section>
+        <a target='_blank' href="https://sophia58.carto.com/viz/fc1dce7a-72b0-11e6-acee-0ecd1babdde5/public_map"><img src="images/cancerMortality.jpg" alt="cancer mortality rate map" /></a>
+        <h3><a target = '_blank' href="https://sophia58.carto.com/viz/fc1dce7a-72b0-11e6-acee-0ecd1babdde5/public_map">US Cancer Mortality Rates</a></h3>
+        <p>The map was built using QGIS and it shows the average rate peer 100k people averaged from 2008-2012.</p>
+        <ul>
+            <li>See the map: <a target='_blank' href="https://sophia58.carto.com/viz/fc1dce7a-72b0-11e6-acee-0ecd1babdde5/public_map">US Cancer Mortality Rates</a></li>
+            <li>Data Source: <a target='_blank' href="https://www.cancer.gov/">National Cancer Institute</a></li>
+        </ul>
+    </section>
+
+    <section>
+        <a target='_blank' href="#"><img src="images/redIguana.jpg" alt="Red Iguana Restaurant Map" /></a>
+        <h3><a target = '_blank' href="#">Distance to the Red Iguana Map</a></h3>
+        <p>This map was built with custom JavaScript code showing the distance to the Red Iguana from the location of a user's click.</p>
+        <ul>
+            <li>See the map: <a target='_blank' href="#">Distance to the Red Iguana Map</a></li>
+        </ul>
+    </section>
+
 
     <p>Hello World! I’m going to be a portfolio page.</p>
 
